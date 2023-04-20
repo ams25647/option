@@ -1,6 +1,14 @@
-@media screen and (min-width:450px) {
+@media screen and (max-width:450px) {
     h1, h2 {
         text-shadow: none;
+    }
+    img {
+        image-rendering: pixelated;
+        filter: blur(1px);
+    }
+    ol {
+        margin-right: 1%;
+        margin-left: 1%;
     }
 }
 
@@ -19,6 +27,8 @@ body {
 
 h1, h2 {
     font-family: 'Open Sans', sans-serif;
+    color: rgb(250, 250, 250);
+    text-shadow: #555 1px 1px 15px;
 }
 
 p {
@@ -40,7 +50,13 @@ a:hover {
 }
 
 ol {
-    box-shadow: 0, 0, 5px #555;
+    box-shadow: 0 0 15px #555;
+    list-style-position: inside;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+li {
+    padding: 1%;
 }
 
 #savingsDash {
