@@ -1,0 +1,49 @@
+@media screen and (min-width:450px) {
+    h1, h2 {
+        text-shadow: none;
+    }
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+}
+
+time {
+    color: rgb(105, 105, 105);
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(200, 200, 200), rgba(0, 10, 10, .45));
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'arial';
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50px;
+}
+
+a {
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    transition: .2s;
+}
+
+ol {
+    box-shadow: 0, 0, 5px #555;
+}
+
+#savingsDash {
+    filter: drop-shadow(10px, 10px, 5px #333);
+    opacity: .7;
+}
