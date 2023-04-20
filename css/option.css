@@ -60,6 +60,6 @@ li {
 }
 
 #savingsDash {
-    filter: drop-shadow(10px, 10px, 5px #333);
+    filter: drop-shadow(10px 10px 5px #333);
     opacity: .7;
 }
